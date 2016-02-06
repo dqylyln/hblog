@@ -2,7 +2,7 @@
 menu:
   主   页: /
   所有文章: /archives
-  Pi 监控: /pi_monitor/index.html
+  Pi 监控: /pi_monitor
 
 # SubNav
 subnav:
