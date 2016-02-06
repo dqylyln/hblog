@@ -11,8 +11,8 @@
 	Language:Chinese
 	Doctype:HTML4
 	Standards: HTML4, CSS
-	Core:  Golang, Gor, Html, MarkDown
-	Deployment: Raspberry Pi, Redhat, Nginx, Gor, Git
+	Core:  NodeJs, Hexo, Html, MarkDown
+	Deployment: Aliyun ECS, Ubuntu, Nginx, Hexo, Git
 	IDE: IntelliJ IDEA
 
 dqylyln 's blog
