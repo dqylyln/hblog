@@ -13,7 +13,6 @@ tags:
 Raspberry Pi是一款基于Linux系统的个人电脑，配备一枚700MHz的处理器，512内存，支持SD卡和Ethernet，拥有两个USB接口，
 以及 HDMI和RCA输出支持。。。。。太多了具体还是直接[百科](http://baike.baidu.com/view/5730914.htm)吧。
 
-<img src="http://www.ickey.cn/images/raspberry/ras14.jpg" width="770" height="770"/>
 <!--more-->
 UK与China版本的区别(当初购买的时候，我也迷惑了一阵)
 ---
@@ -42,7 +41,6 @@ Raspberry Pi的购买
 ---
 购买途径有很多，淘宝商城以及XXX渠道，由于淘宝商城里只卖国产的苦于自己的三星内存情节，所以选择了国内官方授权代理商ICkey购买了UK版本的
 
-![ ](http://www.ickey.cn/uploads/data_ickey/3D2868243A90F067F7E938C586D273D7.jpg)
 
 [直达IC-KEY 购买连接](http://www.ickey.cn/groupbuy.php?ick_sno=ICKEY00033)（这个套餐算下也很划算，就是快递顺丰 22元有点小贵，建议多个同学一起买）
 
