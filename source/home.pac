@@ -5,7 +5,7 @@
  */
 
 // proxy
-var proxy = "SOCKS5 home.dqy.me:7000; SOCKS home.dqy.me:7000; DIRECT;";
+var proxy = "SOCKS5 192.168.1.2:1080; SOCKS 192.168.1.2:1080; DIRECT;";
 
 // user rules
 var directUserRegexpList   = [];
