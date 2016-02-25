@@ -1772,6 +1772,8 @@ var proxyWildcardList  = [
     '*chinaaid.net*',
     '*chinacomments.org*',
     '*chinachannel.hk*',
+    '*xxx.com*',
+    '*xnxx.com*',
     '*.chinadigitaltimes.net*',
     '*.chinaeweekly.com*',
     '*chinageeks.org*',
