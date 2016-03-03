@@ -10,3 +10,4 @@ noDate: "true"
 </div>
 <script src="/js/jquery.lazyload.js"></script>
 <script src="/js/instagram.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
