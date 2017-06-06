@@ -42,7 +42,3 @@ tags:
 ![33.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/233a976f7b4c798c717a8d9351232778.png)
 ![34.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/aa02c5a1e313476232fd79cac1fbbe9b.png)
 ![35.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/097978e2e5bae2f8d659a3c752d1a2bb.png)
-![a1.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/c4b10eaa33d8f7f97172db7b49fb6c52.png)
-![a2.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/037e9a3eb6c75eae47ae6fbe20e8c08c.png)
-![a3.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/5e87cf0bee943e79fe79e761e8551ff5.png)
-![a4.png](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/db6121eb728fc2b6d9e1794abe3ed8f3.png)
