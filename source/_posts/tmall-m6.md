@@ -221,7 +221,7 @@ MXPlayer+解码包内含3个文件（播放器主文件：videoplayer_ad__1_7_19
 而且最重要的是R5遥控器不自带保护带，很多人玩体感游戏用力过猛如果没有保护带的话，就会发生遥控器飞出击中电视机的悲剧.我之所以这么说是因为已经有同事的电视机毁在了这个R5的遥控器
 之下了。
 </span>
-<img src="//oss.aliyuncs.com/faxianla/wood/mt1380722089034.jpeg" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1380722089034.jpeg" width="770" height="770"/>
 
 <span style="color:red">
 6.R5的MIC咪头,号称是可以将遥控器当麦克风，但是这个功能目前没有。
@@ -283,10 +283,10 @@ MXPlayer+解码包内含3个文件（播放器主文件：videoplayer_ad__1_7_19
 
 由于遥控器比较难拆，弄不好拆开会破坏外壳的塑料很难还原，所以引用下别人的拆机图。
 
-<img src="//oss.aliyuncs.com/faxianla/wood/mt1380752681687.jpeg" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1380752681687.jpeg" width="770" height="770"/>
 
 这个图的目的主要是想说明，它使带MIC的咪头的应该可以当麦克风用
-<img src="//oss.aliyuncs.com/faxianla/wood/mt1380753018098.jpeg" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1380753018098.jpeg" width="770" height="770"/>
 
 ## 遥控器接收器
 

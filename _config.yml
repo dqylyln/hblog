@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 
 
 # URL #访问地址等信息设置，可根据需要自己修改。set url as '//yoursite.com/child' and root as '/child/'
-url: //dqy.me #访问域名
+url: http://dqy.me #访问域名
 root: /
 permalink: :year/:title.html
 permalink_defaults:

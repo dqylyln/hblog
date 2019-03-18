@@ -8,12 +8,12 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/dqylyln"
-  weibo: "//weibo.com/dqylyln"
+  weibo: "https://weibo.com/dqylyln"
   rss: "/atom.xml"
   zhihu: "https://www.zhihu.com/people/dong-qi-yu-55"
   facebook: "https://www.facebook.com/dqylyln"
   twitter: "https://twitter.com/dqylyln"
-  linkedin: "//www.linkedin.com/in/dong-qiyu-19b58789"
+  linkedin: "https://www.linkedin.com/in/dong-qiyu-19b58789"
   mail: "mailto:dqylyln@163.com"
   #google: "#"
   #douban: "#"
@@ -36,7 +36,7 @@ google_analytics: ''
 favicon: /img/favicon.png
 
 #你的头像url
-avatar: //ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png
+avatar: /img/avatar.png
 #是否开启分享
 share_jia: true
 share_addthis: false
