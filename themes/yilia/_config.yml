@@ -33,7 +33,7 @@ open_in_new: true
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: /img/favicon.png
 
 #你的头像url
 avatar: //ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png
