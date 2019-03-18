@@ -56,6 +56,6 @@ friends:
 
 #是否开启“关于我”。
 #不开启——
-#aboutme: false
+#aboutme: true
 #开启——
 aboutme: 尘埃虽微，却构成土地；水珠虽小，却能折射太阳的光芒。
