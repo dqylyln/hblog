@@ -95,8 +95,8 @@ XDRP
 
 WINDOWS 下远程桌面
 
-![WIN远程桌面](//cdntest.aliyun.com/faxianla/wood/m939474-1366612952465.png)
+![WIN远程桌面](//oss.aliyuncs.com/faxianla/wood/m939474-1366612952465.png)
 
-![登录成功](//cdntest.aliyun.com/faxianla/wood/m939475-1366612965244.png)
+![登录成功](//oss.aliyuncs.com/faxianla/wood/m939475-1366612965244.png)
 
 输入你的用户名密码即可连接
