@@ -32,15 +32,15 @@ xively账户准备
 
 * 菜单上develop， 然后点击Add Device
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1368624872171.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1368624872171.png" width="770" height="770"/>
 
 * 提交后会得到Feed ID，Feed URL，API Endpoint相关信息，后续API使用要用。
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1368625058391.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1368625058391.png" width="770" height="770"/>
 
 *设置API的密钥 在API Keys选择添加一个API,设置属性Read，Create，Update，Delete，标签随便命名。
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1368625265417.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1368625265417.png" width="770" height="770"/>
 
 到此为止你的FEED相关需要的东西经创建好了，有空的话可以看下创建成功页面下的一些示范API的连接，支持JAVA，CURL等。这里主要用CURL
 
@@ -66,7 +66,7 @@ xively http API
     }
 
 每条线的点的数据结构是KEY-VALUE形式，其中id代表是这个点属于线的ID(自己定义有意义的名称 如Load)，current_value是指这个点的VALUE。
-推荐一个在线的JOSN格式化和校验工具 [jsoneditoronline](http://www.jsoneditoronline.org/)
+推荐一个在线的JOSN格式化和校验工具 [jsoneditoronline](//www.jsoneditoronline.org/)
 
 2.提交数据
 
@@ -91,11 +91,11 @@ BODY 处填写需要发送的JSON数据，方式选择PUT
 
 点击发送即可，RESPONSE 处会显示200表示y成功 。如下图：
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1366633121092.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1366633121092.png" width="770" height="770"/>
 
 这个时候访问下 https://xively.com/feeds/80400859 这个地址就可以看到刚才PUT过去的数据就OK了代表你的API已经调试OK.
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1368625828856.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1368625828856.png" width="770" height="770"/>
 
 准备SHELL打点脚本
 ===
@@ -150,7 +150,7 @@ BODY 处填写需要发送的JSON数据，方式选择PUT
 
 可以看到以下结果:
 
-<img src="http://cdntest.aliyun.com/faxianla/wood/mt1366706378183.png" width="770" height="770"/>
+<img src="//cdntest.aliyun.com/faxianla/wood/mt1366706378183.png" width="770" height="770"/>
 
 将打点脚本添加到CRONTAB中
 ===

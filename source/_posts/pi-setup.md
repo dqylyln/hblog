@@ -14,7 +14,7 @@ tags:
 
 2.Pi支持的SD卡或者TF卡+SD卡套
 （Pi对于SD卡是有要求的，某些品牌和型号的SD卡无法引导）<br/>
-详见：[SD卡支持列表](http://pan.baidu.com/share/link?shareid=173551&uk=1529595879)
+详见：[SD卡支持列表](//pan.baidu.com/share/link?shareid=173551&uk=1529595879)
 
 3.USB键盘和鼠标
 
@@ -26,7 +26,7 @@ tags:
 ===
 Pi使用的SD卡可以看做是它的硬盘，系统是是安装到SD卡上的。
 
-1.到[www.raspberrypi.org](http://www.raspberrypi.org/downloads)下载系统镜像
+1.到[www.raspberrypi.org](//www.raspberrypi.org/downloads)下载系统镜像
 可选择的系统镜像有Raspbian，Arch Linux ARM RISC OS等，经过网友测试Raspbian “wheezy”
 貌似现在性能比较好。
 
@@ -41,9 +41,9 @@ MAC为例：利用DD工具
 这样您就得到 SD 卡的原始设备名称了。 也就是说,”/dev/disk1s1” = “/dev/rdisk1”
 
 * 用DD命令写入 sudo dd bs=1m if=2013-02-09-wheezy-raspbian.img of=/dev/rdisk1
-或者用RPi-sd card builder 这个APP写入 [下载连接](http://alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/)
+或者用RPi-sd card builder 这个APP写入 [下载连接](//alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/)
 
-其他平台SD卡制作方法详见：[Raspberry Pi中文手册](http://pan.baidu.com/share/link?shareid=173464&uk=1529595879)
+其他平台SD卡制作方法详见：[Raspberry Pi中文手册](//pan.baidu.com/share/link?shareid=173464&uk=1529595879)
 
 连接设备
 ===
@@ -83,7 +83,7 @@ HDMI支持开启，这个坑害我折腾半天，因为 Raspbian对于HDMI默认
 
 设置完成后，选择Finish，会提示是否重启，选择Yes。重启后即可进入图形页面。
 
-![](http://ww1.sinaimg.cn/bmiddle/45895cd5jw1e386e16uw5j.jpg)
+![](//ww1.sinaimg.cn/bmiddle/45895cd5jw1e386e16uw5j.jpg)
 
 
 设置临时IP(如果您的网络是自动获取 IP 地址的话,此时已经能够上网了,如果不行在进行这步骤设置)
@@ -137,9 +137,9 @@ sudo service networking restart
 更换了一个更加快速的源：
 ===
 
-pi的源列表: http://www.raspbian.org/RaspbianMirrors
+pi的源列表: //www.raspbian.org/RaspbianMirrors
 测试了之后发现这个源在国内更新最快
-http://mirror.devunt.kr/raspbian/raspbian/
+//mirror.devunt.kr/raspbian/raspbian/
 
 更换源:
 
@@ -147,9 +147,9 @@ sudo vi /etc/apt/sources.list
 
 更换为以下代码：
 
-deb http://mirror.devunt.kr/raspbian/raspbian/ wheezy main contrib non-free rpi
+deb //mirror.devunt.kr/raspbian/raspbian/ wheezy main contrib non-free rpi
 
-[更多APT源列表](http://www.raspbian.org/RaspbianMirrors)
+[更多APT源列表](//www.raspbian.org/RaspbianMirrors)
 
 图形界面下安装中文支持还有输入发
 
@@ -211,7 +211,7 @@ sudo service vsftpd restart
 
 我们用的是UnixBench 这个工具
 
-    curl http://byte-unixbench.googlecode.com/files/unixbench-5.1.2.tar.gz -o unixbench-5.1.2.tar.gz
+    curl //byte-unixbench.googlecode.com/files/unixbench-5.1.2.tar.gz -o unixbench-5.1.2.tar.gz
     tar zxvf unixbench-5.1.2.tar.gz
     cd unixbench-5.1.2
     make

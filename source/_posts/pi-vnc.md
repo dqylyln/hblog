@@ -25,9 +25,9 @@ tags:
 客户端连接
 ===
 
-![](http://www.tightvnc.com/logo/tightvnc-logo-90x90.png)
+![](//www.tightvnc.com/logo/tightvnc-logo-90x90.png)
 
-tightvnc的客户端有很多平台的，可以根据需要下载 [下载连接](http://www.tightvnc.com/download.php)
+tightvnc的客户端有很多平台的，可以根据需要下载 [下载连接](//www.tightvnc.com/download.php)
 <!--more-->
 安装好客户端后，输入要连接RaspberryPi的地址以及端口(默认端口是5901) 就可以连接了
 
@@ -95,8 +95,8 @@ XDRP
 
 WINDOWS 下远程桌面
 
-![WIN远程桌面](http://cdntest.aliyun.com/faxianla/wood/m939474-1366612952465.png)
+![WIN远程桌面](//cdntest.aliyun.com/faxianla/wood/m939474-1366612952465.png)
 
-![登录成功](http://cdntest.aliyun.com/faxianla/wood/m939475-1366612965244.png)
+![登录成功](//cdntest.aliyun.com/faxianla/wood/m939475-1366612965244.png)
 
 输入你的用户名密码即可连接

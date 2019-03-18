@@ -3,7 +3,7 @@
 	Contact: dqylyln [at] gmail.com
 	Weibo: @小齐昊
 	Blog: dqy.me
-	Site: http://www.intellij.org.cn
+	Site: //www.intellij.org.cn
 	From: HangZhou, ZheJiang, China
 
 /* SITE */

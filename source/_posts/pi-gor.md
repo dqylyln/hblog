@@ -18,7 +18,7 @@ Pi入手后就想在上面搭建一个博客，之前首先想到的是一些现
 为什么选择GOR
 ---
 
-经过上面的分析，Pi上搭建博客首选是静态页面方案，但是纯HTML搭建起来的话将是个费时费力的活。有没有更好的方案呢，参考了[一粟](http://hugozhu.myalert.info)的GO+GOR
+经过上面的分析，Pi上搭建博客首选是静态页面方案，但是纯HTML搭建起来的话将是个费时费力的活。有没有更好的方案呢，参考了[一粟](//hugozhu.myalert.info)的GO+GOR
 方案，我觉得这个是我想要的东东。
 
 安装GOR
@@ -33,7 +33,7 @@ gor 是使用golang实现的类Ruhoh静态博客引擎(Ruhoh like),基本兼容r
 安装简单 – 得益于golang的特性,编译后仅一个可运行程序,无依赖
 <!--more-->
 
-安装Golang([Golang官网](http://golang.org))
+安装Golang([Golang官网](//golang.org))
 ===
 
 1.安装Mercurial(GOOGLE惯用mercurial做版本管理)
@@ -98,7 +98,7 @@ gor 是使用golang实现的类Ruhoh静态博客引擎(Ruhoh like),基本兼容r
 
     gor http
 
-浏览器输入http://xxxx:8080 （xxx为你PI的IP）,就可以看到结果
+浏览器输入//xxxx:8080 （xxx为你PI的IP）,就可以看到结果
 
 GOR站点的基本配置
 ===
@@ -110,7 +110,7 @@ GOR站点的基本配置
 
 *打开站点根目录下的config.yml文件
 
-    1.设置production_url为你的网站地址, 例如 http://wendal.net 最后面不需要加入/ 生成rss.xml等文件时会用到
+    1.设置production_url为你的网站地址, 例如 //wendal.net 最后面不需要加入/ 生成rss.xml等文件时会用到
     2.summary_lines 首页的文章摘要的长度,按你喜欢的呗
     3.latest 首页显示多少文章
 
@@ -120,7 +120,7 @@ GOR站点的基本配置
     2.google_prettify 代码高亮,一般不修改
     3.comments 暂时只支持disqus, 请填入short_name
 
-注意：comments需要到 [disqus](http://disqus.com) 注册个账号，然后申请个short_name，这样GOR就会为你的博客集成disqus的
+注意：comments需要到 [disqus](//disqus.com) 注册个账号，然后申请个short_name，这样GOR就会为你的博客集成disqus的
 评论功能。
 
 安装nginx
@@ -158,4 +158,4 @@ gor http 命令只能提供开发调试功能，对于server side include这样�
 参考：
 ===
 
-[在Pi和Github上搭建自己的个人博客](http://hugozhu.myalert.info/2013/02/27/%E5%9C%A8Pi%E5%92%8CGithub%E4%B8%8A%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html)
+[在Pi和Github上搭建自己的个人博客](//hugozhu.myalert.info/2013/02/27/%E5%9C%A8Pi%E5%92%8CGithub%E4%B8%8A%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html)

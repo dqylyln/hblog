@@ -8,12 +8,12 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/dqylyln"
-  weibo: "http://weibo.com/dqylyln"
+  weibo: "//weibo.com/dqylyln"
   rss: "/atom.xml"
   zhihu: "https://www.zhihu.com/people/dong-qi-yu-55"
   facebook: "https://www.facebook.com/dqylyln"
   twitter: "https://twitter.com/dqylyln"
-  linkedin: "http://www.linkedin.com/in/dong-qiyu-19b58789"
+  linkedin: "//www.linkedin.com/in/dong-qiyu-19b58789"
   mail: "mailto:dqylyln@163.com"
   #google: "#"
   #douban: "#"
@@ -36,7 +36,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png
+avatar: //ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png
 #是否开启分享
 share_jia: true
 share_addthis: false
@@ -51,8 +51,8 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  一粟的博客: http://hugozhu.myalert.info/
-  樊夕的博客: http://rpi.freemindworld.com/
+  一粟的博客: //hugozhu.myalert.info/
+  樊夕的博客: //rpi.freemindworld.com/
 
 #是否开启“关于我”。
 #不开启——

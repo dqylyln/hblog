@@ -13,8 +13,8 @@ language: zh-Hans
 timezone: Asia/Shanghai
 
 
-# URL #访问地址等信息设置，可根据需要自己修改。set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dqy.me #访问域名
+# URL #访问地址等信息设置，可根据需要自己修改。set url as '//yoursite.com/child' and root as '/child/'
+url: //dqy.me #访问域名
 root: /
 permalink: :year/:title.html
 permalink_defaults:
@@ -61,7 +61,7 @@ tag: 1
 # Server 本地预览服务信息，默认端口是4000，有需要的话可以自己修改
 ## Hexo uses Connect as a server
 ## You can customize the logger format as defined in
-## http://www.senchalabs.org/connect/logger.html
+## //www.senchalabs.org/connect/logger.html
 port: 4000
 logger: false
 logger_format:
@@ -69,7 +69,7 @@ logger_format:
 # Date / Time format 日期格式
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
+## //momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 

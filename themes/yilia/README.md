@@ -2,12 +2,12 @@ hexo-theme-yilia
 ================
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.github.io/) 查看效果。           
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](//litten.github.io/) 查看效果。           
  
 如遇到问题或有需求，可以：
 * 提issue给我
-* 在这篇文章下留言[Hexo主题Yilia](http://litten.github.io/2014/08/31/hexo-theme-yilia/)
-* 移动端问题留言[Yilia在移动端适配的一些事](http://litten.github.io/2015/02/23/yilia-on-mobile/)
+* 在这篇文章下留言[Hexo主题Yilia](//litten.github.io/2014/08/31/hexo-theme-yilia/)
+* 移动端问题留言[Yilia在移动端适配的一些事](//litten.github.io/2015/02/23/yilia-on-mobile/)
 
 我都会看到并处理。
 
@@ -56,20 +56,20 @@ git pull
 ##三、外观
 
 ####**宽屏**
-![宽屏](http://littendomo.sinaapp.com/yilia/yilia-pc1.png)        
+![宽屏](//littendomo.sinaapp.com/yilia/yilia-pc1.png)        
 
 ####**宽屏文字**
-![宽屏文字](http://littendomo.sinaapp.com/yilia/yilia-pc2.png)   
+![宽屏文字](//littendomo.sinaapp.com/yilia/yilia-pc2.png)   
 
 ####**窄屏**
-![窄屏](http://littendomo.sinaapp.com/yilia/yilia-pc3.png)     
+![窄屏](//littendomo.sinaapp.com/yilia/yilia-pc3.png)     
 
 ####**同步instagram**
-![同步instagram](http://littendomo.sinaapp.com/yilia/yilia-pc4.png)
+![同步instagram](//littendomo.sinaapp.com/yilia/yilia-pc4.png)
 
 ####**移动端**
-![移动端](http://littendomo.sinaapp.com/yilia/yilia-mobile.png)
-![移动端](http://littendomo.sinaapp.com/yilia/yilia-mobile2.png)   
+![移动端](//littendomo.sinaapp.com/yilia/yilia-mobile.png)
+![移动端](//littendomo.sinaapp.com/yilia/yilia-mobile2.png)   
 
 ##四、配置
 
@@ -121,12 +121,12 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  奥巴马的博客: //localhost:4000/
+  卡卡的美丽传说: //localhost:4000/
+  本泽马的博客: //localhost:4000/
+  吉格斯的博客: //localhost:4000/
+  习大大大不同: //localhost:4000/
+  托蒂的博客: //localhost:4000/
 
 #是否开启“关于我”。
 #不开启——

@@ -1,1 +1,1 @@
-Sitemap: http://dqy.me/sitemap.xml
+Sitemap: //dqy.me/sitemap.xml

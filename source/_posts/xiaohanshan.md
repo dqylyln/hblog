@@ -16,7 +16,7 @@ tags:
 第二国产烟油对于气味和口感都比国外的油差了几个档次，这也是为什么很多刚接触电子烟用国产油的朋友用了没几天就放弃电子烟的主要原因。
 
 这次有幸拿到了我们国内蜗牛快采团队针对国内市场出品的小寒山系列的烟油，在用料上该烟油使用的都是食品级的材料也得到了权威认证，在口味上也是正对国人做了精心的调整。目前这个系列上市的烟油目前有四款，分别是酱香烟草，薄荷烟草,芒果冰激凌，以及这次重点点评的荔枝冰。
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/0a7e9e3e1db2ac18fd5551bd1c039e8b.png)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/0a7e9e3e1db2ac18fd5551bd1c039e8b.png)
 
 
 ## 小寒山-荔枝冰
@@ -27,21 +27,21 @@ tags:
 
 小寒山系列烟油是采用了纸盒外包装，包装的 LOG 是一个比较有中国特色的“狮子头”（我看着像舞狮的狮子头，应该没说错吧 - -|）,包装上注明了产品用料：丙二醇（有机溶剂，保湿剂，湿巾的主要成分对人体无害），蔬菜甘油（电子烟法烟的主要成分，蔬菜提炼对人体无害），食用香精（介绍是纯植物提取香精），水，尼古丁（这两个玩意一般都知道）。
 但是对于配比的比例外包装上没有看到（难道印刷忘记了），通过网上查资料来看是 PG(丙二醇) 30%，VG（蔬菜甘油）70%。同时还注明了蜗牛快采出品，授权深圳华加生物科技优先公司生产，其他的就是千篇一律的注意事项。
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/a24821a2f9df13aea28b12a1902b3eb4.JPG)
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/540e7fb3a75e63270f864ad9cc3483a8.JPG)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/a24821a2f9df13aea28b12a1902b3eb4.JPG)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/540e7fb3a75e63270f864ad9cc3483a8.JPG)
 
 ### 油瓶包装：
 
 拆开包装后，看到里面的油瓶眼前一亮，油瓶的容量跟绝大部分烟油的容量一样是30ML，但是瓶子是短粗胖的“尖嘴瓶”，非常小巧方便携带同时由于是采用了“尖嘴”设计，加油也只要一只手就可以完成，免去了滴管式油瓶要两只手来完成加油的苦恼，同时盖子采用了防儿童设计，需要下压才能拧开，可见确实在油瓶设计上下了一些功夫。
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/6855af604ce866cfd208c3cc02fef6bb.JPG)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/6855af604ce866cfd208c3cc02fef6bb.JPG)
 
 ### 气味：
 打开盖子后，一股浓烈的荔枝味道袭来，这个味道跟小时候的一种荔枝饮料很像，如果你知道这个饮料的话说明你已经老了,如果不知道的话可以到淘宝上去买，该饮料现在还有卖，不过好像跑题了。
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/36a01c41633edf75672625a66344050a.jpg)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/36a01c41633edf75672625a66344050a.jpg)
 
 ### 口感：
 终于进入了最重要的部分了，本次口感测试采用佩特里的雾化器，雾化芯为成品0.5欧的，主机为YiHi SX450J，功率25W，烟油是荔枝冰的3mg,先来张设备全照。
-![](http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/c0d48a8e008fe14085f5f13c4df4f1aa.JPG)
+![](//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/c0d48a8e008fe14085f5f13c4df4f1aa.JPG)
 
 
 #### 吸入：
