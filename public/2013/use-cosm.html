@@ -10,26 +10,26 @@
 <meta name="keywords" content="Raspberry Pi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用xively监控Raspberry Pi的Load和温度">
-<meta property="og:url" content="//dqy.me/2013/use-cosm.html">
+<meta property="og:url" content="http://dqy.me/2013/use-cosm.html">
 <meta property="og:site_name" content="DQY的个人空间">
 <meta property="og:description" content="前言在RaspberryPi搭建博客后发现个问题，就是我如何能够知道RaspberryPi的一些运行信息，比如CPULoad或者温度。初步想法是利用图表形式汇总信息，然后通过网页图表展示。该方案主要有以下几个关键点： 1.打点，将收集的信息进行打点，通常是将数据写入文件。 2.收集打点数据文件，然后分析出数据内容。 3.根据分析结果，进行画图用于展示。 而针对以上几点来看让Raspberry Pi">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1368624872171.png">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1368625058391.png">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1368625265417.png">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1366633121092.png">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1368625828856.png">
-<meta property="og:image" content="//cdntest.aliyun.com/faxianla/wood/mt1366706378183.png">
-<meta property="og:updated_time" content="2019-03-18T11:07:02.726Z">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368624872171.png">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368625058391.png">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368625265417.png">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1366633121092.png">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368625828856.png">
+<meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1366706378183.png">
+<meta property="og:updated_time" content="2019-03-18T12:03:29.653Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用xively监控Raspberry Pi的Load和温度">
 <meta name="twitter:description" content="前言在RaspberryPi搭建博客后发现个问题，就是我如何能够知道RaspberryPi的一些运行信息，比如CPULoad或者温度。初步想法是利用图表形式汇总信息，然后通过网页图表展示。该方案主要有以下几个关键点： 1.打点，将收集的信息进行打点，通常是将数据写入文件。 2.收集打点数据文件，然后分析出数据内容。 3.根据分析结果，进行画图用于展示。 而针对以上几点来看让Raspberry Pi">
-<meta name="twitter:image" content="//cdntest.aliyun.com/faxianla/wood/mt1368624872171.png">
+<meta name="twitter:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368624872171.png">
   
     <link rel="alternative" href="/atom.xml" title="DQY的个人空间" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -42,7 +42,7 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img lazy-src="//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png" class="js-avatar">
+			<img lazy-src="/img/avatar.png" class="js-avatar">
 			
 		</a>
 
@@ -115,7 +115,7 @@
 							
 								<a class="github" target="_blank" href="https://github.com/dqylyln" title="github">github</a>
 					        
-								<a class="weibo" target="_blank" href="//weibo.com/dqylyln" title="weibo">weibo</a>
+								<a class="weibo" target="_blank" href="https://weibo.com/dqylyln" title="weibo">weibo</a>
 					        
 								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
 					        
@@ -125,7 +125,7 @@
 					        
 								<a class="twitter" target="_blank" href="https://twitter.com/dqylyln" title="twitter">twitter</a>
 					        
-								<a class="linkedin" target="_blank" href="//www.linkedin.com/in/dong-qiyu-19b58789" title="linkedin">linkedin</a>
+								<a class="linkedin" target="_blank" href="https://www.linkedin.com/in/dong-qiyu-19b58789" title="linkedin">linkedin</a>
 					        
 								<a class="mail" target="_blank" href="mailto:dqylyln@163.com" title="mail">mail</a>
 					        
@@ -176,7 +176,7 @@
 		<header id="header" class="inner">
 			<div class="profilepic">
 			
-				<img lazy-src="//ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/28c7f236fbee20c8fe0f6b55821bc115.png" class="js-avatar">
+				<img lazy-src="/img/avatar.png" class="js-avatar">
 			
 			</div>
 			<hgroup>
@@ -202,7 +202,7 @@
 					
 						<a class="github" target="_blank" href="https://github.com/dqylyln" title="github">github</a>
 			        
-						<a class="weibo" target="_blank" href="//weibo.com/dqylyln" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="https://weibo.com/dqylyln" title="weibo">weibo</a>
 			        
 						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
 			        
@@ -212,7 +212,7 @@
 			        
 						<a class="twitter" target="_blank" href="https://twitter.com/dqylyln" title="twitter">twitter</a>
 			        
-						<a class="linkedin" target="_blank" href="//www.linkedin.com/in/dong-qiyu-19b58789" title="linkedin">linkedin</a>
+						<a class="linkedin" target="_blank" href="https://www.linkedin.com/in/dong-qiyu-19b58789" title="linkedin">linkedin</a>
 			        
 						<a class="mail" target="_blank" href="mailto:dqylyln@163.com" title="mail">mail</a>
 			        
@@ -273,13 +273,13 @@
 <ul>
 <li>菜单上develop， 然后点击Add Device</li>
 </ul>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1368624872171.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1368624872171.png" width="770" height="770"></p>
 <ul>
 <li>提交后会得到Feed ID，Feed URL，API Endpoint相关信息，后续API使用要用。</li>
 </ul>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1368625058391.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1368625058391.png" width="770" height="770"></p>
 <p>*设置API的密钥 在API Keys选择添加一个API,设置属性Read，Create，Update，Delete，标签随便命名。</p>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1368625265417.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1368625265417.png" width="770" height="770"></p>
 <p>到此为止你的FEED相关需要的东西经创建好了，有空的话可以看下创建成功页面下的一些示范API的连接，支持JAVA，CURL等。这里主要用CURL</p>
 <h1 id="xively-http-API"><a href="#xively-http-API" class="headerlink" title="xively http API"></a>xively http API</h1><p>上面已经创建好了数据的FEED，剩下的就是向这个FEED里提交数据了，这里用的是<a href="https://xively.com/dev/docs/api/data/write/multiple_datapoints_to_multiple_data_streams" target="_blank" rel="external">CURL API详情</a></p>
 <p>1.数据格式（JSON）</p>
@@ -308,9 +308,9 @@ putData:上面的JSON数据
 <p>启用HEADERS 添加一个X-ApiKey 的KEY VALUE就是你的APPKEY.</p>
 <p>BODY 处填写需要发送的JSON数据，方式选择PUT</p>
 <p>点击发送即可，RESPONSE 处会显示200表示y成功 。如下图：</p>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1366633121092.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1366633121092.png" width="770" height="770"></p>
 <p>这个时候访问下 <a href="https://xively.com/feeds/80400859" target="_blank" rel="external">https://xively.com/feeds/80400859</a> 这个地址就可以看到刚才PUT过去的数据就OK了代表你的API已经调试OK.</p>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1368625828856.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1368625828856.png" width="770" height="770"></p>
 <h1 id="准备SHELL打点脚本"><a href="#准备SHELL打点脚本" class="headerlink" title="准备SHELL打点脚本"></a>准备SHELL打点脚本</h1><p>1.cpuLoad 数据收集</p>
 <pre><code>cat /proc/loadavg | awk &apos;{print $2}&apos;`
 </code></pre><p>2.CPU温度 数据收集</p>
@@ -350,7 +350,7 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
 <pre><code>chmod 755 testSys.sh
 ./testSys.sh
 </code></pre><p>可以看到以下结果:</p>
-<p><img src="//cdntest.aliyun.com/faxianla/wood/mt1366706378183.png" width="770" height="770"></p>
+<p><img src="//oss.aliyuncs.com/faxianla/wood/mt1366706378183.png" width="770" height="770"></p>
 <h1 id="将打点脚本添加到CRONTAB中"><a href="#将打点脚本添加到CRONTAB中" class="headerlink" title="将打点脚本添加到CRONTAB中"></a>将打点脚本添加到CRONTAB中</h1><pre><code>crontab -e
 
 1 * * * * /home/pi/sysdata/testSys.sh&gt;/dev/null 2&gt;&amp;1 &amp; #每一分钟运行一次/home/pi/sysdata/testSys.sh
@@ -360,7 +360,7 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
 <p>${LINE_ID}:替换成你FEED里具体LINE的ID，上个例子中就是load或者temp</p>
 <p>${TITLE}  :图表展示上的标题,可以自己按照需要命名，比如CPU的LOAD</p>
 <p>经过以上步骤就可以将你的PI上的CPU的LOAD还有温度数据采集到放到cosm展示，其他原理类似如统计在线人数等需求都可以用这个xively的服务来实现。</p>
-<p>本文地址 <a href="//dqy.me/2013/use-cosm.html">//dqy.me/2013/use-cosm.html</a> 转载请注明出处</p>
+<p>本文地址 <a href="http://dqy.me/2013/use-cosm.html">http://dqy.me/2013/use-cosm.html</a> 转载请注明出处</p>
 
       
     </div>
@@ -405,7 +405,9 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
 		<a class="jiathis_button_tumblr"></a>
     <a href="//www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
+	<!--
 	<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	-->
 	<!-- JiaThis Button END -->
 </div>
 
@@ -416,7 +418,7 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="use-cosm" data-title="利用xively监控Raspberry Pi的Load和温度" data-url="//dqy.me/2013/use-cosm.html"></div>
+	<div class="ds-thread" data-thread-key="use-cosm" data-title="利用xively监控Raspberry Pi的Load和温度" data-url="http://dqy.me/2013/use-cosm.html"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -441,10 +443,10 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 dqylyln
+    		&copy; 2020 dqylyln
     	</div>
       	<div class="footer-right">
-      		Powered by <a href="//hexo.io/" target="_blank">Hexo</a>|Theme by <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a>|浙ICP备:<a href="//icp.chinaz.com/info?q=dqy.me" target="_blank">16000252</a>
+      		Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>|Theme by <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a>|浙ICP备:<a href="https://icp.chinaz.com/info?q=dqy.me" target="_blank">16000252</a>
       	</div>
     </div>
   </div>
@@ -467,7 +469,7 @@ curl -s -v --request PUT --header &quot;X-ApiKey: ${API_KEY}&quot; --data-binary
 		open_in_new: true
 	}
 </script>
-<script src="//7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 <script src="/js/main.js"></script>
 
 
@@ -492,7 +494,7 @@ MathJax.Hub.Queue(function() {
 });
 </script>
 
-<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
