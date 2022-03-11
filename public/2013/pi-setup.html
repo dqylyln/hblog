@@ -15,7 +15,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="http://ww1.sinaimg.cn/bmiddle/45895cd5jw1e386e16uw5j.jpg">
 <meta property="article:published_time" content="2013-04-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2019-03-18T11:07:02.777Z">
+<meta property="article:modified_time" content="2022-03-11T07:27:41.821Z">
 <meta property="article:author" content="dqylyln">
 <meta property="article:tag" content="Raspberry Pi">
 <meta name="twitter:card" content="summary">
@@ -29,7 +29,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 <body>
   <div id="container">
@@ -261,18 +261,18 @@
 <p>3.USB键盘和鼠标</p>
 <p>4.支持视频或者HDMI的显示器或者电视机 (安装好系统配置后就没什么用，除非你用Pi做桌面工作环境)</p>
 <p>5.5V 500mh的Micro USB充电器一个</p>
-<a id="more"></a>
+<span id="more"></span>
 <h1 id="启动SD卡制作"><a href="#启动SD卡制作" class="headerlink" title="启动SD卡制作"></a>启动SD卡制作</h1><p>Pi使用的SD卡可以看做是它的硬盘，系统是是安装到SD卡上的。</p>
 <p>1.到<a target="_blank" rel="noopener" href="//www.raspberrypi.org/downloads">www.raspberrypi.org</a>下载系统镜像<br>可选择的系统镜像有Raspbian，Arch Linux ARM RISC OS等，经过网友测试Raspbian “wheezy”<br>貌似现在性能比较好。</p>
 <p>2.利用PC将下载解压后的img文件写入到SD卡中，不同的PC平台写入方法不同<br/><br>MAC为例：利用DD工具</p>
 <ul>
-<li><p>插入卡 Raspberry Pi 使用手册 在终端窗口中输入”df –h”您会发现多了 一个“/dev/disk1s1”的设备</p>
+<li><p>插入卡 Raspberry Pi 使用手册 在终端窗口中输入”df –h”您会发现多了 一个“&#x2F;dev&#x2F;disk1s1”的设备</p>
 </li>
-<li><p>卸载卡 终端窗口输入“sudo diskutil unmount /dev/disk1s1”,然后输入您的系统密码</p>
+<li><p>卸载卡 终端窗口输入“sudo diskutil unmount &#x2F;dev&#x2F;disk1s1”,然后输入您的系统密码</p>
 </li>
-<li><p>设备名称变换 将您的设备名(例 如/dev/disk1s1)最后的 s1 去掉,然后在 disk 前面加上 r,变成” /dev/rdisk1”,<br>这样您就得到 SD 卡的原始设备名称了。 也就是说,”/dev/disk1s1” = “/dev/rdisk1”</p>
+<li><p>设备名称变换 将您的设备名(例 如&#x2F;dev&#x2F;disk1s1)最后的 s1 去掉,然后在 disk 前面加上 r,变成” &#x2F;dev&#x2F;rdisk1”,<br>这样您就得到 SD 卡的原始设备名称了。 也就是说,”&#x2F;dev&#x2F;disk1s1” &#x3D; “&#x2F;dev&#x2F;rdisk1”</p>
 </li>
-<li><p>用DD命令写入 sudo dd bs=1m if=2013-02-09-wheezy-raspbian.img of=/dev/rdisk1<br>或者用RPi-sd card builder 这个APP写入 <a target="_blank" rel="noopener" href="//alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/">下载连接</a></p>
+<li><p>用DD命令写入 sudo dd bs&#x3D;1m if&#x3D;2013-02-09-wheezy-raspbian.img of&#x3D;&#x2F;dev&#x2F;rdisk1<br>或者用RPi-sd card builder 这个APP写入 <a target="_blank" rel="noopener" href="//alltheware.wordpress.com/2012/12/11/easiest-way-sd-card-setup/">下载连接</a></p>
 </li>
 </ul>
 <p>其他平台SD卡制作方法详见：<a target="_blank" rel="noopener" href="//pan.baidu.com/share/link?shareid=173464&uk=1529595879">Raspberry Pi中文手册</a></p>
@@ -280,7 +280,7 @@
 <p>HDMI支持开启，这个坑害我折腾半天，因为 Raspbian对于HDMI默认没有启用。如果你使用的是HDMI连接显示设备就要多一个步骤。</p>
 <ul>
 <li><p>开启HDMI，修改SD开中的config.txt文件里的参数，hdmi_safe的设置改成1</p>
-<p>  hdmi_safe=1</p>
+<p>  hdmi_safe&#x3D;1</p>
 </li>
 </ul>
 <p>设别连接好就可以开机了，如果没什么问题开机后显示器上会显示Raspberry Pi的设置页面</p>
@@ -316,7 +316,7 @@
 <p>如果配置没问题，可以ping <a target="_blank" rel="noopener" href="http://www.taobao.com就可以ping通/">www.taobao.com就可以PING通</a></p>
 <h1 id="更新APT的源列表"><a href="#更新APT的源列表" class="headerlink" title="更新APT的源列表"></a>更新APT的源列表</h1><p>apt-get update</p>
 <h1 id="安装VIM"><a href="#安装VIM" class="headerlink" title="安装VIM"></a>安装VIM</h1><p>apt-get install vim</p>
-<h1 id="配置持久IP"><a href="#配置持久IP" class="headerlink" title="配置持久IP"></a>配置持久IP</h1><p>vim /etc/network/interfaces</p>
+<h1 id="配置持久IP"><a href="#配置持久IP" class="headerlink" title="配置持久IP"></a>配置持久IP</h1><p>vim &#x2F;etc&#x2F;network&#x2F;interfaces</p>
 <p>去掉 inface eth0 inet dhcp 动态DHCP的配置修改成以下</p>
 <p>inface eth0 inet static</p>
 <p>address xxx.xxx.xxx.xxx</p>
@@ -326,11 +326,11 @@
 <p>保存退出</p>
 <p>重启网络</p>
 <p>sudo service networking restart</p>
-<h1 id="更换了一个更加快速的源："><a href="#更换了一个更加快速的源：" class="headerlink" title="更换了一个更加快速的源："></a>更换了一个更加快速的源：</h1><p>pi的源列表: //<a target="_blank" rel="noopener" href="http://www.raspbian.org/RaspbianMirrors">www.raspbian.org/RaspbianMirrors</a><br>测试了之后发现这个源在国内更新最快<br>//mirror.devunt.kr/raspbian/raspbian/</p>
+<h1 id="更换了一个更加快速的源："><a href="#更换了一个更加快速的源：" class="headerlink" title="更换了一个更加快速的源："></a>更换了一个更加快速的源：</h1><p>pi的源列表: &#x2F;&#x2F;<a target="_blank" rel="noopener" href="http://www.raspbian.org/RaspbianMirrors">www.raspbian.org/RaspbianMirrors</a><br>测试了之后发现这个源在国内更新最快<br>&#x2F;&#x2F;mirror.devunt.kr&#x2F;raspbian&#x2F;raspbian&#x2F;</p>
 <p>更换源:</p>
-<p>sudo vi /etc/apt/sources.list</p>
+<p>sudo vi &#x2F;etc&#x2F;apt&#x2F;sources.list</p>
 <p>更换为以下代码：</p>
-<p>deb //mirror.devunt.kr/raspbian/raspbian/ wheezy main contrib non-free rpi</p>
+<p>deb &#x2F;&#x2F;mirror.devunt.kr&#x2F;raspbian&#x2F;raspbian&#x2F; wheezy main contrib non-free rpi</p>
 <p><a target="_blank" rel="noopener" href="//www.raspbian.org/RaspbianMirrors">更多APT源列表</a></p>
 <p>图形界面下安装中文支持还有输入发</p>
 <p>-安装文泉字体<br>sudo apt-get install ttf-wqy-zenhei</p>
@@ -343,15 +343,15 @@
 <p>启动ftp服务</p>
 <p>sudo service vsftpd start</p>
 <p>编辑vsftdp的配置文件</p>
-<p>sudo vi /etc/vsftpd.conf</p>
+<p>sudo vi &#x2F;etc&#x2F;vsftpd.conf</p>
 <p>找到以下行，修改成以下形式，如果有注释放开注释的#号即可</p>
-<p>anonymous_enable=NO</p>
+<p>anonymous_enable&#x3D;NO</p>
 <p>表示：不允许匿名访问</p>
-<p>local_enable=YES</p>
+<p>local_enable&#x3D;YES</p>
 <p>设定本地用户可以访问。</p>
-<p>write_enable=YES</p>
+<p>write_enable&#x3D;YES</p>
 <p>设定可以进行写操作</p>
-<p>local_umask=022</p>
+<p>local_umask&#x3D;022</p>
 <p>设定上传后文件的权限掩码。</p>
 <p>存盘退出</p>
 <p>重启vsftpd服务</p>
@@ -362,9 +362,10 @@
 tar zxvf unixbench-5.1.2.tar.gz
 cd unixbench-5.1.2
 make
-./Run</code></pre>
+./Run
+</code></pre>
 <p>注意:如果没有图形的话，要在Makefile里注释掉X的测试</p>
-<p>#GRAPHIC_TESTS = defined</p>
+<p>#GRAPHIC_TESTS &#x3D; defined</p>
 <p>测试结果</p>
 <pre><code>========================================================================
    BYTE UNIX Benchmarks (Version 5.1.2)
@@ -408,9 +409,9 @@ Shell Scripts (1 concurrent)                     42.4        469.8    110.8
 Shell Scripts (8 concurrent)                      6.0         60.0    100.0
 System Call Overhead                          15000.0     377382.3    251.6
                                                                    ========
-System Benchmarks Index Score                                         102.1</code></pre>
-<h1 id="到此为止，你的Raspberry-Pi-已经具备了Linux系统以及独立的IP-可以SSH过去，FTP传文件，剩下的自己折腾吧。"><a href="#到此为止，你的Raspberry-Pi-已经具备了Linux系统以及独立的IP-可以SSH过去，FTP传文件，剩下的自己折腾吧。" class="headerlink" title="到此为止，你的Raspberry Pi 已经具备了Linux系统以及独立的IP,可以SSH过去，FTP传文件，剩下的自己折腾吧。"></a>到此为止，你的Raspberry Pi 已经具备了Linux系统以及独立的IP,可以SSH过去，FTP传文件，剩下的自己折腾吧。</h1><p>本文地址 <a href="http://dqy.me/2013/pi-setup.html">http://dqy.me/2013/pi-setup.html</a> 转载请注明出处</p>
-
+System Benchmarks Index Score                                         102.1
+</code></pre>
+<h1 id="到此为止，你的Raspberry-Pi-已经具备了Linux系统以及独立的IP-可以SSH过去，FTP传文件，剩下的自己折腾吧。"><a href="#到此为止，你的Raspberry-Pi-已经具备了Linux系统以及独立的IP-可以SSH过去，FTP传文件，剩下的自己折腾吧。" class="headerlink" title="到此为止，你的Raspberry Pi 已经具备了Linux系统以及独立的IP,可以SSH过去，FTP传文件，剩下的自己折腾吧。"></a>到此为止，你的Raspberry Pi 已经具备了Linux系统以及独立的IP,可以SSH过去，FTP传文件，剩下的自己折腾吧。</h1>
       
     </div>
     

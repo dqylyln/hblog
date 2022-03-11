@@ -20,7 +20,7 @@
 <meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1368625828856.png">
 <meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/mt1366706378183.png">
 <meta property="article:published_time" content="2013-04-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2019-03-18T12:03:29.653Z">
+<meta property="article:modified_time" content="2022-03-11T07:27:41.830Z">
 <meta property="article:author" content="dqylyln">
 <meta property="article:tag" content="Raspberry Pi">
 <meta name="twitter:card" content="summary">
@@ -34,7 +34,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 <body>
   <div id="container">
@@ -266,7 +266,7 @@
 <p>2.收集打点数据文件，然后分析出数据内容。</p>
 <p>3.根据分析结果，进行画图用于展示。</p>
 <p>而针对以上几点来看让Raspberry Pi去打点没什么问题，收集打点数据分析内容，利用分析结果画图展示这个两条如果让RaspberryPi来做的话有些浪费本地资源，<br>本身Raspberry Pi的资源就有限如CPU。所以如果可以将打点数据上传到第三方的服务中，让第三方分析并且画图展示岂不是更好。所以，参考了一粟同学的方案。<br>利用<a target="_blank" rel="noopener" href="https://xively.com/">xively.com</a> 提供的服务来进行数据收集和描点画图。</p>
-<a id="more"></a>
+<span id="more"></span>
 <h1 id="xively账户准备"><a href="#xively账户准备" class="headerlink" title="xively账户准备"></a>xively账户准备</h1><p>1.<a target="_blank" rel="noopener" href="https://xively.com/signup/">注册账户</a>，因为需要邮箱收取激活邮件，所以需要填写正确的邮件地址。（激活邮件到达比较慢，至少我是等了半天才收到激活邮件）</p>
 <p>2.添加一个设备</p>
 <ul>
@@ -296,7 +296,8 @@
             &quot;current_value&quot;: &quot;89.15&quot;
         &#125;
     ]
-&#125;</code></pre>
+&#125;
+</code></pre>
 <p>每条线的点的数据结构是KEY-VALUE形式，其中id代表是这个点属于线的ID(自己定义有意义的名称 如Load)，current_value是指这个点的VALUE。<br>推荐一个在线的JOSN格式化和校验工具 <a target="_blank" rel="noopener" href="//www.jsoneditoronline.org/">jsoneditoronline</a></p>
 <p>2.提交数据</p>
 <p>cosm提供了HTTP的API方式</p>
@@ -304,7 +305,8 @@
 
 HEAD：需要增加X-ApiKey：$&#123;apiKey&#125;
 
-putData:上面的JSON数据</code></pre>
+putData:上面的JSON数据
+</code></pre>
 <h1 id="浏览器调试"><a href="#浏览器调试" class="headerlink" title="浏览器调试"></a>浏览器调试</h1><p>利用chrome的一个插件叫<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/dev-http-client/aejoelaoggembcahagimdiliamlcdmfm/details?utm_source=chrome-ntp-icon">Dev Http Client</a>, 在连接地址里填入API的地址其中feed_id换成你真实的FEED_ID</p>
 <p>如：<a target="_blank" rel="noopener" href="https://api.xively.com/v2/feeds/80400859?timezone=+8">https://api.xively.com/v2/feeds/80400859?timezone=+8</a></p>
 <p>启用HEADERS 添加一个X-ApiKey 的KEY VALUE就是你的APPKEY.</p>
@@ -316,9 +318,11 @@ putData:上面的JSON数据</code></pre>
 <img src="//oss.aliyuncs.com/faxianla/wood/mt1368625828856.png" width="770" height="770"/>
 
 <h1 id="准备SHELL打点脚本"><a href="#准备SHELL打点脚本" class="headerlink" title="准备SHELL打点脚本"></a>准备SHELL打点脚本</h1><p>1.cpuLoad 数据收集</p>
-<pre><code>cat /proc/loadavg | awk &#39;&#123;print $2&#125;&#39;`</code></pre>
+<pre><code>cat /proc/loadavg | awk &#39;&#123;print $2&#125;&#39;`
+</code></pre>
 <p>2.CPU温度 数据收集</p>
-<pre><code>cat /sys/class/thermal/thermal_zone0/temp | awk &#39;&#123;print $1/1000&#125;&#39;</code></pre>
+<pre><code>cat /sys/class/thermal/thermal_zone0/temp | awk &#39;&#123;print $1/1000&#125;&#39;
+</code></pre>
 <p>通过以上2条命令就可以查看当前的CPU对应的LOADE和温度，下面就需要将收集到的数据组装成cosm的API需要的JSON格式在PUT给cosm就可以了。</p>
 <p>下面是脚本的例子：</p>
 <pre><code>#!/bin/bash
@@ -348,24 +352,27 @@ echo $&#123;cpu_t&#125;
 echo $&#123;cpu_load&#125;
 echo $&#123;STR&#125;
 echo $&#123;STR&#125; &gt; $&#123;LOCATION&#125;/cosm.json
-curl -s -v --request PUT --header &quot;X-ApiKey: $&#123;API_KEY&#125;&quot; --data-binary @$&#123;LOCATION&#125;/cosm.json $&#123;COSM_URL&#125;</code></pre>
+curl -s -v --request PUT --header &quot;X-ApiKey: $&#123;API_KEY&#125;&quot; --data-binary @$&#123;LOCATION&#125;/cosm.json $&#123;COSM_URL&#125;
+</code></pre>
 <p> 修改脚本中需要替换成你自己的三个变量LOCATION，API_KEY，FEED_ID 之后 赋予改脚本文件 755权限并且运行。</p>
 <p> 例如：该脚本名称testSys.sh</p>
 <pre><code>chmod 755 testSys.sh
-./testSys.sh</code></pre>
+./testSys.sh
+</code></pre>
 <p>可以看到以下结果:</p>
 <img src="//oss.aliyuncs.com/faxianla/wood/mt1366706378183.png" width="770" height="770"/>
 
 <h1 id="将打点脚本添加到CRONTAB中"><a href="#将打点脚本添加到CRONTAB中" class="headerlink" title="将打点脚本添加到CRONTAB中"></a>将打点脚本添加到CRONTAB中</h1><pre><code>crontab -e
 
-1 * * * * /home/pi/sysdata/testSys.sh&gt;/dev/null 2&gt;&amp;1 &amp; #每一分钟运行一次/home/pi/sysdata/testSys.sh</code></pre>
+1 * * * * /home/pi/sysdata/testSys.sh&gt;/dev/null 2&gt;&amp;1 &amp; #每一分钟运行一次/home/pi/sysdata/testSys.sh
+</code></pre>
 <h1 id="页面引入图表"><a href="#页面引入图表" class="headerlink" title="页面引入图表"></a>页面引入图表</h1><p>在需要暂时图表的地方加入以下代码：</p>
-<pre><code>&lt;img src=&quot;https://api.xively.com/v2/feeds/$&#123;FEED_ID&#125;/datastreams/$&#123;LINE_ID&#125;.png?width=340&amp;height=180&amp;colour=%23f15a24&amp;duration=2days&amp;title=$&#123;TITLE&#125;&amp;show_axis_labels=false&amp;detailed_grid=true&amp;scale=&amp;timezone=8&quot;/&gt;</code></pre>
+<pre><code>&lt;img src=&quot;https://api.xively.com/v2/feeds/$&#123;FEED_ID&#125;/datastreams/$&#123;LINE_ID&#125;.png?width=340&amp;height=180&amp;colour=%23f15a24&amp;duration=2days&amp;title=$&#123;TITLE&#125;&amp;show_axis_labels=false&amp;detailed_grid=true&amp;scale=&amp;timezone=8&quot;/&gt;
+</code></pre>
 <p>${FEED_ID}:替换成你创建FEED的ID，上个例子中就是126908</p>
 <p>${LINE_ID}:替换成你FEED里具体LINE的ID，上个例子中就是load或者temp</p>
 <p>${TITLE}  :图表展示上的标题,可以自己按照需要命名，比如CPU的LOAD</p>
 <p>经过以上步骤就可以将你的PI上的CPU的LOAD还有温度数据采集到放到cosm展示，其他原理类似如统计在线人数等需求都可以用这个xively的服务来实现。</p>
-<p>本文地址 <a href="http://dqy.me/2013/use-cosm.html">http://dqy.me/2013/use-cosm.html</a> 转载请注明出处</p>
 
       
     </div>

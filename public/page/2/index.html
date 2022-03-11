@@ -24,7 +24,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 <body>
   <div id="container">
@@ -239,8 +239,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真<br>是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。</p>
-<h1 id="安装-tightvncserver"><a href="#安装-tightvncserver" class="headerlink" title="安装 tightvncserver"></a>安装 tightvncserver</h1><pre><code>sudo apt-get install tightvncserver</code></pre>
-<h1 id="启动VNC-Server"><a href="#启动VNC-Server" class="headerlink" title="启动VNC Server"></a>启动VNC Server</h1><pre><code>vncserver</code></pre>
+<h1 id="安装-tightvncserver"><a href="#安装-tightvncserver" class="headerlink" title="安装 tightvncserver"></a>安装 tightvncserver</h1><pre><code>sudo apt-get install tightvncserver
+</code></pre>
+<h1 id="启动VNC-Server"><a href="#启动VNC-Server" class="headerlink" title="启动VNC Server"></a>启动VNC Server</h1><pre><code>vncserver
+</code></pre>
 <p>设定访问密码,会出现两次，之后会询问一个只读密码，n跳过</p>
 <h1 id="客户端连接"><a href="#客户端连接" class="headerlink" title="客户端连接"></a>客户端连接</h1><p><img src="//www.tightvnc.com/logo/tightvnc-logo-90x90.png"></p>
 <p>tightvnc的客户端有很多平台的，可以根据需要下载 <a target="_blank" rel="noopener" href="//www.tightvnc.com/download.php">下载连接</a></p>

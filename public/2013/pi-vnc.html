@@ -6,18 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>Raspberry Pi 配置VNC | DQY的个人空间</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。 安装 tightvncserversudo apt-get install tightvncserver 启动VNC Servervncserver 设定访问密码,会出现两">
+  <meta name="description" content="今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。 安装 tightvncserversudo apt-get install tightvncserver  启动VNC Servervncserver  设定访问密码,会出">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Raspberry Pi 配置VNC">
 <meta property="og:url" content="http://dqy.me/2013/pi-vnc.html">
 <meta property="og:site_name" content="DQY的个人空间">
-<meta property="og:description" content="今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。 安装 tightvncserversudo apt-get install tightvncserver 启动VNC Servervncserver 设定访问密码,会出现两">
+<meta property="og:description" content="今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。 安装 tightvncserversudo apt-get install tightvncserver  启动VNC Servervncserver  设定访问密码,会出">
 <meta property="og:locale">
 <meta property="og:image" content="http://www.tightvnc.com/logo/tightvnc-logo-90x90.png">
 <meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/m939474-1366612952465.png">
 <meta property="og:image" content="http://oss.aliyuncs.com/faxianla/wood/m939475-1366612965244.png">
 <meta property="article:published_time" content="2013-04-07T16:00:00.000Z">
-<meta property="article:modified_time" content="2019-03-18T12:03:29.663Z">
+<meta property="article:modified_time" content="2022-03-11T07:27:41.822Z">
 <meta property="article:author" content="dqylyln">
 <meta property="article:tag" content="配置VNC">
 <meta name="twitter:card" content="summary">
@@ -31,7 +31,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 <body>
   <div id="container">
@@ -259,15 +259,18 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>今天一个同事问我是否能远程访问RaspberryPi的桌面环境，当时一口回答VNC，至于咋搞一直没尝试过，因为我一直认为Raspberry Pi上搞X的话，性能真<br>是惨不忍睹。但是本着探索的精神今天还是尝试了下顺便记录了下过程。</p>
-<h1 id="安装-tightvncserver"><a href="#安装-tightvncserver" class="headerlink" title="安装 tightvncserver"></a>安装 tightvncserver</h1><pre><code>sudo apt-get install tightvncserver</code></pre>
-<h1 id="启动VNC-Server"><a href="#启动VNC-Server" class="headerlink" title="启动VNC Server"></a>启动VNC Server</h1><pre><code>vncserver</code></pre>
+<h1 id="安装-tightvncserver"><a href="#安装-tightvncserver" class="headerlink" title="安装 tightvncserver"></a>安装 tightvncserver</h1><pre><code>sudo apt-get install tightvncserver
+</code></pre>
+<h1 id="启动VNC-Server"><a href="#启动VNC-Server" class="headerlink" title="启动VNC Server"></a>启动VNC Server</h1><pre><code>vncserver
+</code></pre>
 <p>设定访问密码,会出现两次，之后会询问一个只读密码，n跳过</p>
 <h1 id="客户端连接"><a href="#客户端连接" class="headerlink" title="客户端连接"></a>客户端连接</h1><p><img src="//www.tightvnc.com/logo/tightvnc-logo-90x90.png"></p>
 <p>tightvnc的客户端有很多平台的，可以根据需要下载 <a target="_blank" rel="noopener" href="//www.tightvnc.com/download.php">下载连接</a></p>
-<a id="more"></a>
+<span id="more"></span>
 <p>安装好客户端后，输入要连接RaspberryPi的地址以及端口(默认端口是5901) 就可以连接了</p>
 <p>当然你也可以让RaspberryPi上的VNC的SERVER默认启动，那么可以参考以下方法。</p>
-<h1 id="设定开机启动-如果你愿意"><a href="#设定开机启动-如果你愿意" class="headerlink" title="设定开机启动(如果你愿意)"></a>设定开机启动(如果你愿意)</h1><h2 id="准备开机启动脚本"><a href="#准备开机启动脚本" class="headerlink" title="准备开机启动脚本"></a>准备开机启动脚本</h2><pre><code>sudo vi /etc/init.d/tightvncserver</code></pre>
+<h1 id="设定开机启动-如果你愿意"><a href="#设定开机启动-如果你愿意" class="headerlink" title="设定开机启动(如果你愿意)"></a>设定开机启动(如果你愿意)</h1><h2 id="准备开机启动脚本"><a href="#准备开机启动脚本" class="headerlink" title="准备开机启动脚本"></a>准备开机启动脚本</h2><pre><code>sudo vi /etc/init.d/tightvncserver
+</code></pre>
 <p>*下面是脚本内容</p>
 <pre><code>#!/bin/sh
 
@@ -298,18 +301,20 @@ case &quot;$1&quot; in
         ;;
 esac
 
-exit 0</code></pre>
-<h2 id="修改启动脚本权限"><a href="#修改启动脚本权限" class="headerlink" title="修改启动脚本权限"></a>修改启动脚本权限</h2><p>sudo chmod 755 /etc/init.d/tightvncserver</p>
-<h2 id="添加到开机启动"><a href="#添加到开机启动" class="headerlink" title="添加到开机启动"></a>添加到开机启动</h2><pre><code>sudo update-rc.d tightvncserver defaults</code></pre>
+exit 0
+</code></pre>
+<h2 id="修改启动脚本权限"><a href="#修改启动脚本权限" class="headerlink" title="修改启动脚本权限"></a>修改启动脚本权限</h2><p>sudo chmod 755 &#x2F;etc&#x2F;init.d&#x2F;tightvncserver</p>
+<h2 id="添加到开机启动"><a href="#添加到开机启动" class="headerlink" title="添加到开机启动"></a>添加到开机启动</h2><pre><code>sudo update-rc.d tightvncserver defaults
+</code></pre>
 <h1 id="XDRP"><a href="#XDRP" class="headerlink" title="XDRP"></a>XDRP</h1><p>如果感兴趣可以安装XDRP，这个玩意也依赖VNC。好处是可以直接使用WIN的远程桌面连接，而速度快。</p>
 <p>安装命令：</p>
-<pre><code>sudo apt-get install xrdp</code></pre>
+<pre><code>sudo apt-get install xrdp
+</code></pre>
 <p>注意：默认端口3389 如果是外网需要自己路由器映射暴漏这个端口。</p>
 <p>WINDOWS 下远程桌面</p>
 <p><img src="//oss.aliyuncs.com/faxianla/wood/m939474-1366612952465.png" alt="WIN远程桌面"></p>
 <p><img src="//oss.aliyuncs.com/faxianla/wood/m939475-1366612965244.png" alt="登录成功"></p>
 <p>输入你的用户名密码即可连接</p>
-<p>本文地址 <a href="http://dqy.me/2013/pi-vnc.html">http://dqy.me/2013/pi-vnc.html</a> 转载请注明出处</p>
 
       
     </div>
